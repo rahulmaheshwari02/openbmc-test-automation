@@ -199,6 +199,7 @@ LogOut OpenBMC GUI
 
 Test Teardown Execution
     [Documentation]  Do final closure activities of test case execution.
+    Sleep	30 minutes
     Rprint Pgm Footer
     Print Dashes  0  100  1  =
     LogOut OpenBMC GUI
