@@ -76,7 +76,7 @@ Launch Header Browser
 Launch Headless Browser
     [Documentation]  Launch headless browser.
 
-    #Sleep	30 minutes  
+    Sleep	30 minutes  
     Start Virtual Display  1920  1080
     ${BROWSER_ID}=  Open Browser  ${obmc_gui_url}
     Set Global Variable  ${BROWSER_ID}
