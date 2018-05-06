@@ -4,7 +4,7 @@ Library  XvfbRobot
 
 *** Variables ***
 ${URL}          https://www.google.com
-${BROWSER}      firefox
+#${BROWSER}      firefox
 ${BROWSER}      gc
 
 
