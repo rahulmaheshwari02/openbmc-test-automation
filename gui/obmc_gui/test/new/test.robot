@@ -10,7 +10,7 @@ ${BROWSER}      firefox
 
 *** Keywords ***
 Open Browser To Login Page
-        Sleep  30 minutes
+        #Sleep  30 minutes
         Start Virtual Display  1920  1080
         Open Browser   ${URL}           ${BROWSER}
         Set Window Size  1920  1080
